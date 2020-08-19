@@ -9,4 +9,5 @@ require (
 	github.com/qiniu/api.v7/v7 v7.5.0
 	github.com/satori/go.uuid v1.2.0 // indirect
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
+	gopkg.in/yaml.v2 v2.3.0
 )

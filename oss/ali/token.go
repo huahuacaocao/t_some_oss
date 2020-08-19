@@ -45,9 +45,9 @@ func CreateStsToken2() aliyunsts.Credentials {
 
 func CreateStsToken3() sts.Credentials {
 	credential := sts.Credentials{}
-	credential.SecurityToken = "CAIS8wF1q6Ft5B2yfSjIr5fzM9Pf2Ydg4KSPYBGGo3EmYr5rm5/+2zz2IHxJenFgA+EWtvs2m29V6v8blqJ8QNpESUHCccp+/8z8RqA8rMyT1fau5Jko1beHewHKeTOZsebWZ+LmNqC/Ht6md1HDkAJq3LL+bk/Mdle5MJqP+/UFB5ZtKWveVzddA8pMLQZPsdITMWCrVcygKRn3mGHdfiEK00he8TolufTgkpzEsUuF1wWlkr4vyt6vcsT+Xa5FJ4xiVtq55utye5fa3TRYgxowr/sr0vQUo2aX5o7EXAYMv0zfKYvIt9R1Kkp+fbMq5i2oY0kQWJcagAEs1hQfXzj8eqJtnOa4u2vG1ZMks+0p559CnMfiS54DQaG3Roci4OtRQGd9+myB1FI8HPLjtSozjQzMIoFRzvAYCczXzy7sDfxixuHokhb34lPENA4UbNKJkbauS8cI0KaAmxZVv6dNgJuEkQhSVwdQbl3rBOjhYxQksSi58HtW5A=="
-	credential.AccessKeyId = "STS.NTFxik4XAWfdb77Gqsn1GtZU9"
-	credential.AccessKeySecret = "FGK2do95c1k7N6CRqXR8P3R2uCSGJrZvD7S6Lhk4TMjW"
-	credential.Expiration = "2020-06-04T09:39:15Z"
+	credential.SecurityToken = "CAIS8wF1q6Ft5B2yfSjIr5DfI/mN3+5jwbe4MHfr3FQEXcpVt6v/lzz2IHxJenFgA+EWtvs2m29V6v8blqJ8QNpESUHCccp+/8yiY/1Ko8yT1fau5Jko1beHewHKeTOZsebWZ+LmNqC/Ht6md1HDkAJq3LL+bk/Mdle5MJqP+/UFB5ZtKWveVzddA8pMLQZPsdITMWCrVcygKRn3mGHdfiEK00he8TolufTgkpzEsUuF1wWlkr4vyt6vcsT+Xa5FJ4xiVtq55utye5fa3TRYgxowr/sr0vQUo2aX5o7EXAYMv0zfKYvIt9R1Kkp+fbMq5i2oY0kQWJcagAEQlJB7fUUiGlb5Q5RG2K0EXxjNyDOBZ4lP4GAC9bNngm5DQP+kTShLo/uR1vj77M2J4Nmn2/CBJJKlRb1uDxJf5XPBHXBw4ZrQQJN6VmpuyljXAFbT2iRy0H/nt9G6o0FjX8f7+ky8fmo132443oE/bptci3G8ns6baeHGCzA7vg=="
+	credential.AccessKeyId = "STS.NSjhC921BvuS2QZ8TQQEyXnTu"
+	credential.AccessKeySecret = "HwRtXrgsY85hTMQ5qQcnK2ud34sN4XmN2QTCR5XFepZj"
+	credential.Expiration = "2020-06-04T17:34:10Z"
 	return credential
 }
