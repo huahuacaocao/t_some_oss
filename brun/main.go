@@ -20,7 +20,9 @@ func main() {
 	loadConf()
 	//res, err := services.ImTokenService.CreateSimpleUploadToken()
 	//res, err := services.ImTokenService.CreateTokenWithReturnBody()
-	res, err := services.ImUploadService.FormUpload()
+	//res, err := services.ImUploadService.FormUpload()
+	//res, err := services.ImUploadService.FragmentUpload()
+	res, err := services.ImUploadService.ResumeUpload()
 	fmt.Printf("%+v\n %+v\n", res, err)
 }
 
